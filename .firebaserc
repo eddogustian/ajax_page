@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "ajax-page",
+    "ajax-page": "ajax-page"
+  }
+}
