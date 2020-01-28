@@ -44,6 +44,12 @@ div.menu ul li {
     padding: 0 20px;
     cursor: pointer;
 }
+@media only screen and (max-width: 600px) {
+    div.menu ul li {
+        padding: 0 6px;
+        font-size: 14px;
+    }    
+}
  
 div.menu ul li a {
 	display:block;	
