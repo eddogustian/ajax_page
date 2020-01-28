@@ -24,7 +24,7 @@
         </ul>
     </div>
     <div class="main">
-    
+       
     </div>
     <script src="jquery-3.4.1.min.js"></script>
 </body>
@@ -33,7 +33,7 @@
             $('.klik_menu').click(function(){
                 const menu = $(this).attr('id');
                 if(menu == "home") {
-                    $('.main').load('home.php');
+                    $('.main').load('home.php');	
                 }else if(menu == "tentang"){
                     $('.main').load('tentang.php');
                 }else if(menu == "tutorial"){
